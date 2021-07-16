@@ -247,7 +247,7 @@
       this.activateCurrency({ currency: this.$route.query.currency || this.currency })
 
       // Set current update
-      this.setLastUpdate({ lastUpdate: new Date('2020-12-25') })
+      this.setLastUpdate({ lastUpdate: new Date('2021-07-16') })
       // Show update modal, if needed
       if (this.lastReadUpdate < this.lastUpdate) {
         this.openModal({ modal: 'news' })
